@@ -31,7 +31,8 @@ public class MonitoringService {
     private Integer DEPTH;
     private HttpClient client;
     private StringBuilder api = new StringBuilder();
-    private Double hbtcToPlnx, plnxToHbtc;
+    private volatile Double hbtcToPlnx, plnxToHbtc;
+    private volatile Double HBTC_VALUE, PLNX_VALUE;
 
 
     @PostConstruct
@@ -67,10 +68,11 @@ public class MonitoringService {
         ExchangeData plnx = parsePoloniexJson();
         ExchangeData hbtc = parseHitBTCJson();
 
-        System.out.println(plnx.getBid().get(0).getPrice() + ":" + hbtc.getAsk().get(0).getPrice());
-        System.out.printf("plnxToHbtc: %.9f\n", plnx.getBid().get(0).getPrice() - hbtc.getAsk().get(0).getPrice());
-        System.out.println(hbtc.getBid().get(0).getPrice() + ":" + plnx.getAsk().get(0).getPrice());
-        System.out.printf("hbtcToPlnx: %.9f\n", hbtc.getBid().get(0).getPrice() - plnx.getAsk().get(0).getPrice());
+        HBTC_VALUE = hbtc.getAsk().get(0).getPrice();
+        PLNX_VALUE = plnx.getAsk().get(0).getPrice();
+
+        plnxToHbtc = plnx.getBid().get(0).getPrice() - hbtc.getAsk().get(0).getPrice();
+        hbtcToPlnx = hbtc.getBid().get(0).getPrice() - plnx.getAsk().get(0).getPrice();
 
     }
 
@@ -153,4 +155,19 @@ public class MonitoringService {
         return responseString;
     }
 
+    public Double getHBTC_VALUE() {
+        return HBTC_VALUE;
+    }
+
+    public Double getPLNX_VALUE() {
+        return PLNX_VALUE;
+    }
+
+    public Double getHbtcToPlnx() {
+        return hbtcToPlnx;
+    }
+
+    public Double getPlnxToHbtc() {
+        return plnxToHbtc;
+    }
 }
