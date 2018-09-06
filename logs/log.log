@@ -1,0 +1,561 @@
+2018-09-06 00:21:53.531  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 17156 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:21:53.609  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:21:53.934  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3cd3e762: startup date [Thu Sep 06 00:21:53 MSK 2018]; root of context hierarchy
+2018-09-06 00:21:56.791  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @9139ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:21:57.098  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:21:57.100  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:21:57.635  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:21:57.636  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:21:57.638  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:21:57.662  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:21:57.662  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3744 ms
+2018-09-06 00:21:58.034  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:21:58.040  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:21:58.041  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:21:58.041  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:21:58.041  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:21:58.051  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1e8823d2{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.5991228167125051998.8085/],AVAILABLE}
+2018-09-06 00:21:58.052  INFO ramilmmk - o.e.j.s.Server                           : Started @10401ms
+2018-09-06 00:21:58.228  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:21:58.615  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3cd3e762: startup date [Thu Sep 06 00:21:53 MSK 2018]; root of context hierarchy
+2018-09-06 00:21:58.703  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:21:58.704  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:21:58.710  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:21:58.711  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:21:58.748  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:21:58.748  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:21:59.144  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:21:59.165  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:21:59.186  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:21:59.186  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:21:59.206  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-09-06 00:21:59.243  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@3104351d{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:21:59.260  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:21:59.265  INFO ramilmmk - C.Application                            : Started Application in 7.591 seconds (JVM running for 11.614)
+2018-09-06 00:22:02.236 ERROR ramilmmk - o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+java.lang.NullPointerException
+	at CryptoMonitor.Service.MonitoringService.parsePoloniexJson(MonitoringService.java:91)
+	at CryptoMonitor.Service.MonitoringService.refreshData(MonitoringService.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-09-06 00:22:27.765  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 14936 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:22:27.774  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:22:27.879  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26794848: startup date [Thu Sep 06 00:22:27 MSK 2018]; root of context hierarchy
+2018-09-06 00:22:30.515  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5736ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:22:30.673  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:22:30.677  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:22:30.848  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:22:30.848  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:22:30.849  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:22:30.856  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:22:30.857  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2982 ms
+2018-09-06 00:22:31.015  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:22:31.020  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:22:31.021  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:22:31.021  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:22:31.021  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:22:31.026  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@51671b08{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.8564930964462760688.8085/],AVAILABLE}
+2018-09-06 00:22:31.027  INFO ramilmmk - o.e.j.s.Server                           : Started @6249ms
+2018-09-06 00:22:31.235  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:22:31.571  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@26794848: startup date [Thu Sep 06 00:22:27 MSK 2018]; root of context hierarchy
+2018-09-06 00:22:31.656  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:22:31.658  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:22:31.665  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:22:31.667  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:22:31.714  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:22:31.714  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:22:32.026  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:22:32.045  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:22:32.056  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:22:32.056  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:22:32.072  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-09-06 00:22:32.104  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@57aa341b{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:22:32.110  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:22:32.115  INFO ramilmmk - C.Application                            : Started Application in 5.016 seconds (JVM running for 7.336)
+2018-09-06 00:22:35.525 ERROR ramilmmk - o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+java.lang.NullPointerException
+	at CryptoMonitor.Service.MonitoringService.parsePoloniexJson(MonitoringService.java:93)
+	at CryptoMonitor.Service.MonitoringService.refreshData(MonitoringService.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-09-06 00:23:22.209  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 4836 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:23:22.219  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:23:22.350  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1c1bbc4e: startup date [Thu Sep 06 00:23:22 MSK 2018]; root of context hierarchy
+2018-09-06 00:23:25.065  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @6145ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:23:25.216  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:23:25.218  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:23:25.353  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:23:25.354  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:23:25.355  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:23:25.362  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:23:25.363  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3019 ms
+2018-09-06 00:23:25.504  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:23:25.508  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:23:25.508  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:23:25.508  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:23:25.508  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:23:25.512  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@6c2d4cc6{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.8562174656767130331.8085/],AVAILABLE}
+2018-09-06 00:23:25.513  INFO ramilmmk - o.e.j.s.Server                           : Started @6596ms
+2018-09-06 00:23:25.675  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:23:25.941  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1c1bbc4e: startup date [Thu Sep 06 00:23:22 MSK 2018]; root of context hierarchy
+2018-09-06 00:23:26.010  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:23:26.011  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:23:26.016  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:23:26.017  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:23:26.053  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:23:26.054  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:23:26.328  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:23:26.345  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:23:26.356  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:23:26.357  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:23:26.373  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-09-06 00:23:26.403  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@70e02081{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:23:26.409  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:23:26.414  INFO ramilmmk - C.Application                            : Started Application in 4.872 seconds (JVM running for 7.495)
+2018-09-06 00:23:29.019 ERROR ramilmmk - o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task.
+java.lang.NullPointerException
+	at CryptoMonitor.Service.MonitoringService.parsePoloniexJson(MonitoringService.java:93)
+	at CryptoMonitor.Service.MonitoringService.refreshData(MonitoringService.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-09-06 00:24:22.154  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 14764 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:24:22.167  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:24:22.309  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bccb269: startup date [Thu Sep 06 00:24:22 MSK 2018]; root of context hierarchy
+2018-09-06 00:24:25.244  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5995ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:24:25.367  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:24:25.369  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:24:25.516  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:24:25.517  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:24:25.519  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 660000ms
+2018-09-06 00:24:25.527  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:24:25.527  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3224 ms
+2018-09-06 00:24:25.670  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:24:25.673  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:24:25.674  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:24:25.674  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:24:25.674  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:24:25.681  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@44d70181{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.1795852269069299718.8085/],AVAILABLE}
+2018-09-06 00:24:25.682  INFO ramilmmk - o.e.j.s.Server                           : Started @6435ms
+2018-09-06 00:24:25.857  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:24:26.133  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bccb269: startup date [Thu Sep 06 00:24:22 MSK 2018]; root of context hierarchy
+2018-09-06 00:24:26.201  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:24:26.202  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:24:26.209  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:24:26.210  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:24:26.245  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:24:26.246  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:24:26.530  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:24:26.550  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:24:26.562  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:24:26.562  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:24:26.587  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-09-06 00:24:26.622  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@1ba05e38{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:24:26.627  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:24:26.633  INFO ramilmmk - C.Application                            : Started Application in 5.172 seconds (JVM running for 7.385)
+2018-09-06 00:27:54.751  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 14260 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:27:54.760  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:27:54.863  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3cd3e762: startup date [Thu Sep 06 00:27:54 MSK 2018]; root of context hierarchy
+2018-09-06 00:27:57.527  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5677ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:27:57.661  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:27:57.663  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:27:57.806  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:27:57.806  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:27:57.808  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:27:57.817  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:27:57.817  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2960 ms
+2018-09-06 00:27:57.987  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:27:57.991  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:27:57.992  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:27:57.992  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:27:57.992  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:27:57.998  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@77e2a6e2{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.3230058279425659977.8085/],AVAILABLE}
+2018-09-06 00:27:57.999  INFO ramilmmk - o.e.j.s.Server                           : Started @6150ms
+2018-09-06 00:27:58.795  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:27:59.094  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3cd3e762: startup date [Thu Sep 06 00:27:54 MSK 2018]; root of context hierarchy
+2018-09-06 00:27:59.165  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:27:59.166  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:27:59.171  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:27:59.172  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:27:59.205  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:27:59.205  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:27:59.566  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:27:59.583  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:27:59.594  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:27:59.595  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:27:59.615  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-09-06 00:27:59.657  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@1cc9cfb2{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:27:59.662  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:27:59.668  INFO ramilmmk - C.Application                            : Started Application in 5.515 seconds (JVM running for 7.819)
+2018-09-06 00:31:27.534  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 11512 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:31:27.547  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:31:27.655  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a52dba3: startup date [Thu Sep 06 00:31:27 MSK 2018]; root of context hierarchy
+2018-09-06 00:31:30.105  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5460ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:31:30.246  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:31:30.249  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:31:30.399  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:31:30.399  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:31:30.402  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:31:30.410  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:31:30.410  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2761 ms
+2018-09-06 00:31:30.582  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:31:30.586  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:31:30.587  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:31:30.587  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:31:30.587  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:31:30.593  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@71b1a49c{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.9164871725214001185.8085/],AVAILABLE}
+2018-09-06 00:31:30.595  INFO ramilmmk - o.e.j.s.Server                           : Started @5951ms
+2018-09-06 00:31:31.475  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:31:31.814  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a52dba3: startup date [Thu Sep 06 00:31:27 MSK 2018]; root of context hierarchy
+2018-09-06 00:31:31.888  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:31:31.890  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:31:31.898  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:31:31.899  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:31:31.939  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:31:31.939  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:31:32.354  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:31:32.375  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:31:32.388  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:31:32.389  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:31:32.412  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-09-06 00:31:32.449  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@26a4551a{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:31:32.455  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:31:32.461  INFO ramilmmk - C.Application                            : Started Application in 5.562 seconds (JVM running for 7.817)
+2018-09-06 00:33:56.740  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 19228 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:33:56.750  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:33:56.844  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55fe41ea: startup date [Thu Sep 06 00:33:56 MSK 2018]; root of context hierarchy
+2018-09-06 00:33:59.262  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5479ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:33:59.400  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:33:59.402  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:33:59.545  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:33:59.545  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:33:59.547  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 660000ms
+2018-09-06 00:33:59.555  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:33:59.556  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2716 ms
+2018-09-06 00:33:59.700  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:33:59.703  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:33:59.703  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:33:59.704  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:33:59.704  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:33:59.709  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@74518890{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.5835808908802849914.8085/],AVAILABLE}
+2018-09-06 00:33:59.710  INFO ramilmmk - o.e.j.s.Server                           : Started @5928ms
+2018-09-06 00:34:00.559  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:34:00.893  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55fe41ea: startup date [Thu Sep 06 00:33:56 MSK 2018]; root of context hierarchy
+2018-09-06 00:34:00.964  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:34:00.965  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:34:00.971  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:34:00.972  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:34:01.014  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:34:01.014  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:34:01.430  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:34:01.451  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:34:01.465  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:34:01.465  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:34:01.489  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-09-06 00:34:01.533  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@7ce9e05a{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:34:01.540  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:34:01.546  INFO ramilmmk - C.Application                            : Started Application in 5.414 seconds (JVM running for 7.763)
+2018-09-06 00:35:01.492  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 11320 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:35:01.503  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:35:01.614  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710f4dc7: startup date [Thu Sep 06 00:35:01 MSK 2018]; root of context hierarchy
+2018-09-06 00:35:04.262  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5614ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:35:04.398  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:35:04.400  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:35:04.531  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:35:04.531  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:35:04.533  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 660000ms
+2018-09-06 00:35:04.541  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:35:04.541  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2933 ms
+2018-09-06 00:35:04.675  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:35:04.678  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:35:04.679  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:35:04.679  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:35:04.679  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:35:04.684  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@71b1a49c{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.9018991442478484628.8085/],AVAILABLE}
+2018-09-06 00:35:04.684  INFO ramilmmk - o.e.j.s.Server                           : Started @6038ms
+2018-09-06 00:35:05.482  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:35:05.764  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710f4dc7: startup date [Thu Sep 06 00:35:01 MSK 2018]; root of context hierarchy
+2018-09-06 00:35:05.864  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:35:05.866  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:35:05.871  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:35:05.873  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:35:05.916  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:35:05.916  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:35:06.212  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:35:06.347  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:35:06.360  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:35:06.361  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:35:06.383  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2018-09-06 00:35:06.419  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@26a4551a{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:35:06.426  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:35:06.432  INFO ramilmmk - C.Application                            : Started Application in 5.577 seconds (JVM running for 7.785)
+2018-09-06 00:36:07.076  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 11580 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:36:07.085  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:36:07.194  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bcec361: startup date [Thu Sep 06 00:36:07 MSK 2018]; root of context hierarchy
+2018-09-06 00:36:09.689  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5575ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:36:09.819  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:36:09.821  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:36:09.950  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:36:09.950  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:36:09.952  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:36:09.959  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:36:09.959  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2770 ms
+2018-09-06 00:36:10.113  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:36:10.117  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:36:10.117  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:36:10.117  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:36:10.118  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:36:10.124  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@b273a59{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.6333823191777833903.8085/],AVAILABLE}
+2018-09-06 00:36:10.125  INFO ramilmmk - o.e.j.s.Server                           : Started @6011ms
+2018-09-06 00:36:10.949  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:36:11.259  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@bcec361: startup date [Thu Sep 06 00:36:07 MSK 2018]; root of context hierarchy
+2018-09-06 00:36:11.326  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:36:11.327  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:36:11.332  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:36:11.333  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:36:11.366  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:36:11.366  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:36:11.718  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:36:11.735  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:36:11.747  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:36:11.747  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:36:11.770  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-09-06 00:36:11.809  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@1c504e66{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:36:11.815  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:36:11.819  INFO ramilmmk - C.Application                            : Started Application in 5.376 seconds (JVM running for 7.706)
+2018-09-06 00:37:30.083  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 17588 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:37:30.092  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:37:30.197  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1c1bbc4e: startup date [Thu Sep 06 00:37:30 MSK 2018]; root of context hierarchy
+2018-09-06 00:37:32.857  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5659ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:37:33.012  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:37:33.014  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:37:33.151  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:37:33.152  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:37:33.154  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:37:33.161  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:37:33.162  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2974 ms
+2018-09-06 00:37:33.324  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:37:33.328  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:37:33.329  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:37:33.329  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:37:33.330  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:37:33.335  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@62e8f862{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.7921087360266634774.8085/],AVAILABLE}
+2018-09-06 00:37:33.336  INFO ramilmmk - o.e.j.s.Server                           : Started @6139ms
+2018-09-06 00:37:34.172  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:37:34.479  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1c1bbc4e: startup date [Thu Sep 06 00:37:30 MSK 2018]; root of context hierarchy
+2018-09-06 00:37:34.545  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:37:34.546  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:37:34.552  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:37:34.553  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:37:34.586  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:37:34.586  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:37:34.956  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:37:34.975  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:37:34.992  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:37:34.992  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:37:35.013  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2018-09-06 00:37:35.049  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@1fde4f40{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:37:35.056  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:37:35.061  INFO ramilmmk - C.Application                            : Started Application in 5.609 seconds (JVM running for 7.864)
+2018-09-06 00:39:42.935  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 11700 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:39:42.949  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:39:43.049  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@ba2f4ec: startup date [Thu Sep 06 00:39:43 MSK 2018]; root of context hierarchy
+2018-09-06 00:39:45.780  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5766ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:39:45.901  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:39:45.903  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:39:46.038  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:39:46.038  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:39:46.040  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:39:46.047  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:39:46.047  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3003 ms
+2018-09-06 00:39:46.186  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:39:46.190  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:39:46.191  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:39:46.191  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:39:46.192  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:39:46.197  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@515f4131{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.8423165303280975652.8085/],AVAILABLE}
+2018-09-06 00:39:46.198  INFO ramilmmk - o.e.j.s.Server                           : Started @6185ms
+2018-09-06 00:39:47.014  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:39:47.357  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@ba2f4ec: startup date [Thu Sep 06 00:39:43 MSK 2018]; root of context hierarchy
+2018-09-06 00:39:47.420  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:39:47.421  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:39:47.426  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:39:47.427  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:39:47.460  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:39:47.460  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:39:47.841  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:39:47.861  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:39:47.873  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:39:47.874  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:39:47.894  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-09-06 00:39:47.928  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@11a00961{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:39:47.934  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:39:47.939  INFO ramilmmk - C.Application                            : Started Application in 5.651 seconds (JVM running for 7.926)
+2018-09-06 00:41:15.541  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 17904 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:41:15.551  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:41:15.656  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@198b6731: startup date [Thu Sep 06 00:41:15 MSK 2018]; root of context hierarchy
+2018-09-06 00:41:18.264  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5623ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:41:18.399  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:41:18.401  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:41:18.540  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:41:18.540  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:41:18.542  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:41:18.550  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:41:18.551  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2900 ms
+2018-09-06 00:41:18.691  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:41:18.695  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:41:18.695  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:41:18.695  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:41:18.696  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:41:18.700  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@199e4c2b{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.2965113041934054545.8085/],AVAILABLE}
+2018-09-06 00:41:18.701  INFO ramilmmk - o.e.j.s.Server                           : Started @6062ms
+2018-09-06 00:41:19.596  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:41:19.900  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@198b6731: startup date [Thu Sep 06 00:41:15 MSK 2018]; root of context hierarchy
+2018-09-06 00:41:19.988  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:41:19.989  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:41:19.995  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:41:19.996  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:41:20.029  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:41:20.029  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:41:20.397  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:41:20.416  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:41:20.428  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:41:20.428  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:41:20.452  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-09-06 00:41:20.489  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@cfbc8e8{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:41:20.498  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:41:20.504  INFO ramilmmk - C.Application                            : Started Application in 5.576 seconds (JVM running for 7.864)
+2018-09-06 00:41:38.271  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 9132 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:41:38.280  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:41:38.363  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@752325ad: startup date [Thu Sep 06 00:41:38 MSK 2018]; root of context hierarchy
+2018-09-06 00:41:41.307  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @6387ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:41:41.430  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:41:41.433  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:41:41.603  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:41:41.603  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:41:41.605  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 660000ms
+2018-09-06 00:41:41.614  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:41:41.614  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3258 ms
+2018-09-06 00:41:41.776  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:41:41.779  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:41:41.780  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:41:41.780  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:41:41.780  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:41:41.785  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@236ab296{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.2562639624295698592.8085/],AVAILABLE}
+2018-09-06 00:41:41.786  INFO ramilmmk - o.e.j.s.Server                           : Started @6867ms
+2018-09-06 00:41:42.766  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:41:43.046  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@752325ad: startup date [Thu Sep 06 00:41:38 MSK 2018]; root of context hierarchy
+2018-09-06 00:41:43.131  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:41:43.132  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:41:43.137  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:41:43.138  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:41:43.172  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:41:43.172  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:41:43.449  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:41:43.567  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:41:43.581  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:41:43.581  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:41:43.601  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-09-06 00:41:43.635  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@2764c546{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:41:43.641  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:41:43.646  INFO ramilmmk - C.Application                            : Started Application in 5.933 seconds (JVM running for 8.727)
+2018-09-06 00:42:22.743  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 216 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:42:22.756  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:42:22.863  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fbd1f6: startup date [Thu Sep 06 00:42:22 MSK 2018]; root of context hierarchy
+2018-09-06 00:42:25.563  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5981ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:42:25.710  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:42:25.713  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:42:25.869  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:42:25.870  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:42:25.873  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:42:25.880  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:42:25.880  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3023 ms
+2018-09-06 00:42:26.015  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:42:26.018  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:42:26.018  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:42:26.019  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:42:26.019  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:42:26.023  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@73e132e0{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.7699655496063215620.8085/],AVAILABLE}
+2018-09-06 00:42:26.024  INFO ramilmmk - o.e.j.s.Server                           : Started @6444ms
+2018-09-06 00:42:26.849  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:42:27.169  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fbd1f6: startup date [Thu Sep 06 00:42:22 MSK 2018]; root of context hierarchy
+2018-09-06 00:42:27.236  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:42:27.237  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:42:27.242  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:42:27.244  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:42:27.276  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:42:27.277  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:42:27.636  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:42:27.653  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:42:27.666  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:42:27.667  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:42:27.686  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-09-06 00:42:27.723  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@3fdecce{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:42:27.728  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:42:27.733  INFO ramilmmk - C.Application                            : Started Application in 5.645 seconds (JVM running for 8.152)
+2018-09-06 00:42:52.264  INFO ramilmmk - C.Application                            : Starting Application on ramilmmk with PID 19164 (C:\Java\WebLibrary\CryptoMonitor\target\classes started by ramil in C:\Java\WebLibrary\CryptoMonitor)
+2018-09-06 00:42:52.273  INFO ramilmmk - C.Application                            : No active profile set, falling back to default profiles: default
+2018-09-06 00:42:52.371  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fbd1f6: startup date [Thu Sep 06 00:42:52 MSK 2018]; root of context hierarchy
+2018-09-06 00:42:54.930  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @5619ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-09-06 00:42:55.057  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-09-06 00:42:55.059  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-09-06 00:42:55.195  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-09-06 00:42:55.195  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-09-06 00:42:55.198  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-09-06 00:42:55.206  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-09-06 00:42:55.206  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2840 ms
+2018-09-06 00:42:55.337  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-09-06 00:42:55.341  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 00:42:55.342  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 00:42:55.342  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 00:42:55.343  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 00:42:55.349  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@73e132e0{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.3533791812815571803.8085/],AVAILABLE}
+2018-09-06 00:42:55.350  INFO ramilmmk - o.e.j.s.Server                           : Started @6040ms
+2018-09-06 00:42:56.184  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:42:56.480  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fbd1f6: startup date [Thu Sep 06 00:42:52 MSK 2018]; root of context hierarchy
+2018-09-06 00:42:56.542  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-09-06 00:42:56.543  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-09-06 00:42:56.549  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 00:42:56.550  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 00:42:56.585  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:42:56.585  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 00:42:56.977  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 00:42:56.996  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-09-06 00:42:57.007  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 00:42:57.007  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 00:42:57.028  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2018-09-06 00:42:57.062  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@3fdecce{HTTP/1.1,[http/1.1]}{0.0.0.0:8085}
+2018-09-06 00:42:57.067  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-09-06 00:42:57.073  INFO ramilmmk - C.Application                            : Started Application in 5.459 seconds (JVM running for 7.762)

@@ -1,0 +1,140 @@
+2018-07-26 18:38:00.685  INFO ramilmmk --- [           main] W.Application                            : Starting Application on ramilmmk with PID 10772 (C:\Java\CryptoMonitor\CryptoMonitor\target\classes started by ramil in C:\Java\CryptoMonitor\CryptoMonitor)
+2018-07-26 18:38:00.695  INFO ramilmmk --- [           main] W.Application                            : No active profile set, falling back to default profiles: default
+2018-07-26 18:38:00.819  INFO ramilmmk --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63475ace: startup date [Thu Jul 26 18:38:00 MSK 2018]; root of context hierarchy
+2018-07-26 18:38:01.177  WARN ramilmmk --- [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2018-07-26 18:38:03.983  INFO ramilmmk --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$303c68be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-26 18:38:04.538  INFO ramilmmk --- [           main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-07-26 18:38:04.854  INFO ramilmmk --- [           main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4041 ms
+2018-07-26 18:38:05.129  INFO ramilmmk --- [           main] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-07-26 18:38:05.141  INFO ramilmmk --- [           main] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-26 18:38:05.142  INFO ramilmmk --- [           main] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-26 18:38:05.142  INFO ramilmmk --- [           main] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-26 18:38:05.143  INFO ramilmmk --- [           main] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-26 18:38:08.323  INFO ramilmmk --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-07-26 18:38:08.351  INFO ramilmmk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-07-26 18:38:08.629  INFO ramilmmk --- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.2.17.Final}
+2018-07-26 18:38:08.632  INFO ramilmmk --- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-07-26 18:38:08.711  INFO ramilmmk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-26 18:38:08.966  INFO ramilmmk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2018-07-26 18:38:09.147  INFO ramilmmk --- [           main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-07-26 18:38:09.149  INFO ramilmmk --- [           main] o.h.t.BasicTypeRegistry                  : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3b920bdc
+2018-07-26 18:38:09.828  INFO ramilmmk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-07-26 18:38:10.459  INFO ramilmmk --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-26 18:38:10.828  INFO ramilmmk --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63475ace: startup date [Thu Jul 26 18:38:00 MSK 2018]; root of context hierarchy
+2018-07-26 18:38:10.864  WARN ramilmmk --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-07-26 18:38:10.906  INFO ramilmmk --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-07-26 18:38:10.907  INFO ramilmmk --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/check],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-07-26 18:38:10.914  INFO ramilmmk --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-26 18:38:10.915  INFO ramilmmk --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-26 18:38:10.952  INFO ramilmmk --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-26 18:38:10.953  INFO ramilmmk --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-26 18:38:11.507  INFO ramilmmk --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-26 18:38:11.509  INFO ramilmmk --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-26 18:38:11.516  INFO ramilmmk --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-26 18:38:11.529  INFO ramilmmk --- [           main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-07-26 18:38:11.542  INFO ramilmmk --- [           main] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-26 18:38:11.560  INFO ramilmmk --- [           main] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-07-26 18:38:11.606  INFO ramilmmk --- [           main] o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-07-26 18:38:11.610  INFO ramilmmk --- [           main] W.Application                            : Started Application in 11.659 seconds (JVM running for 14.8)
+2018-07-26 18:38:12.538  INFO ramilmmk --- [pool-2-thread-1] W.S.PostService                          : Start parsing gov.cap
+2018-07-26 18:38:16.650  INFO ramilmmk --- [pool-2-thread-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-07-26 18:38:17.532  INFO ramilmmk --- [pool-2-thread-1] W.S.PostService                          : Checking post...
+2018-07-26 18:38:18.913  INFO ramilmmk --- [pool-2-thread-1] W.S.PostService                          : Checking post...
+2018-07-26 18:38:19.985  INFO ramilmmk --- [pool-2-thread-1] W.S.PostService                          : Checking post...
+2018-07-26 18:38:19.985  INFO ramilmmk --- [pool-2-thread-1] W.S.PostService                          : Start parsing kanashen.ru
+2018-07-26 18:38:22.467  INFO ramilmmk --- [pool-2-thread-1] W.S.PostService                          : Checking post...
+2018-07-26 18:40:49.594  INFO ramilmmk - W.Application                            : Starting Application on ramilmmk with PID 8824 (C:\Java\CryptoMonitor\CryptoMonitor\target\classes started by ramil in C:\Java\CryptoMonitor\CryptoMonitor)
+2018-07-26 18:40:49.603  INFO ramilmmk - W.Application                            : No active profile set, falling back to default profiles: default
+2018-07-26 18:40:49.751  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c0c2f8d: startup date [Thu Jul 26 18:40:49 MSK 2018]; root of context hierarchy
+2018-07-26 18:40:50.028  WARN ramilmmk - o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2018-07-26 18:40:52.544  INFO ramilmmk - trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$220e814b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-26 18:40:53.003  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-07-26 18:40:53.194  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3448 ms
+2018-07-26 18:40:53.420  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-07-26 18:40:53.424  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-26 18:40:53.425  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-26 18:40:53.425  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-26 18:40:53.425  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-26 18:40:53.821  INFO ramilmmk - j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-07-26 18:40:53.837  INFO ramilmmk - o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-07-26 18:40:54.061  INFO ramilmmk - o.h.Version                              : HHH000412: Hibernate Core {5.2.17.Final}
+2018-07-26 18:40:54.064  INFO ramilmmk - o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-07-26 18:40:54.135  INFO ramilmmk - o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-26 18:40:54.354  INFO ramilmmk - o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2018-07-26 18:40:54.549  INFO ramilmmk - o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-07-26 18:40:54.551  INFO ramilmmk - o.h.t.BasicTypeRegistry                  : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6812fa3a
+2018-07-26 18:40:55.146  INFO ramilmmk - j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-07-26 18:40:55.739  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-26 18:40:56.112  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c0c2f8d: startup date [Thu Jul 26 18:40:49 MSK 2018]; root of context hierarchy
+2018-07-26 18:40:56.153  WARN ramilmmk - aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-07-26 18:40:56.200  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-07-26 18:40:56.202  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/check],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-07-26 18:40:56.208  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-26 18:40:56.209  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-26 18:40:56.271  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-26 18:40:56.272  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-26 18:40:56.744  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-26 18:40:56.747  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-26 18:40:56.754  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-26 18:40:56.768  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-07-26 18:40:56.779  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-26 18:40:56.800  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-07-26 18:40:56.849  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-07-26 18:40:56.854  INFO ramilmmk - W.Application                            : Started Application in 7.864 seconds (JVM running for 10.312)
+2018-07-26 18:40:57.784  INFO ramilmmk - W.S.PostService                          : Start parsing gov.cap
+2018-07-26 18:41:02.450  INFO ramilmmk - o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-07-26 18:41:03.203  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-07-26 18:41:04.884  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-07-26 18:41:06.068  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-07-26 18:41:06.069  INFO ramilmmk - W.S.PostService                          : Start parsing kanashen.ru
+2018-07-26 18:41:08.447  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-07-26 18:44:21.988  INFO ramilmmk - W.Application                            : Starting Application on ramilmmk with PID 1132 (C:\Java\CryptoMonitor\CryptoMonitor\target\classes started by ramil in C:\Java\CryptoMonitor\CryptoMonitor)
+2018-07-26 18:44:22.008  INFO ramilmmk - W.Application                            : No active profile set, falling back to default profiles: default
+2018-07-26 18:44:22.155  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c9d8e2: startup date [Thu Jul 26 18:44:22 MSK 2018]; root of context hierarchy
+2018-07-26 18:44:25.633  INFO ramilmmk - trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$48121ed1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-07-26 18:44:26.081  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8085
+2018-07-26 18:44:26.242  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4094 ms
+2018-07-26 18:44:26.430  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-07-26 18:44:26.433  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-26 18:44:26.433  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-26 18:44:26.433  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-26 18:44:26.434  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-26 18:44:26.832  INFO ramilmmk - j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-07-26 18:44:26.850  INFO ramilmmk - o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-07-26 18:44:27.119  INFO ramilmmk - o.h.Version                              : HHH000412: Hibernate Core {5.2.17.Final}
+2018-07-26 18:44:27.122  INFO ramilmmk - o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-07-26 18:44:27.198  INFO ramilmmk - o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-26 18:44:27.448  INFO ramilmmk - o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2018-07-26 18:44:27.660  INFO ramilmmk - o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-07-26 18:44:27.663  INFO ramilmmk - o.h.t.BasicTypeRegistry                  : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7afc4db9
+2018-07-26 18:44:28.322  INFO ramilmmk - j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-07-26 18:44:28.967  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-26 18:44:29.350  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c9d8e2: startup date [Thu Jul 26 18:44:22 MSK 2018]; root of context hierarchy
+2018-07-26 18:44:29.391  WARN ramilmmk - aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-07-26 18:44:29.443  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-07-26 18:44:29.444  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/check],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-07-26 18:44:29.450  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-26 18:44:29.451  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-26 18:44:29.499  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-26 18:44:29.499  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-26 18:44:30.011  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-26 18:44:30.013  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-26 18:44:30.021  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-26 18:44:30.036  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-07-26 18:44:30.057  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-26 18:44:30.077  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-07-26 18:44:30.114  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8085 (http/1.1) with context path '/'
+2018-07-26 18:44:30.118  INFO ramilmmk - W.Application                            : Started Application in 8.914 seconds (JVM running for 12.377)
+2018-07-26 18:44:31.065  INFO ramilmmk - W.S.PostService                          : Start parsing gov.cap
+2018-07-26 18:44:33.814  INFO ramilmmk - o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-07-26 18:44:34.590  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-07-26 18:44:35.961  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-07-26 18:44:37.225  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-07-26 18:44:37.225  INFO ramilmmk - W.S.PostService                          : Start parsing kanashen.ru
+2018-07-26 18:44:39.633  INFO ramilmmk - W.S.PostService                          : Checking post...

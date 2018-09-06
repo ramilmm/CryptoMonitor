@@ -1,0 +1,237 @@
+2018-08-19 23:49:47.737  INFO ramilmmk - W.Application                            : Starting Application on ramilmmk with PID 6504 (C:\Java\CryptoMonitor\CryptoMonitor\target\classes started by ramil in C:\Java\CryptoMonitor\CryptoMonitor)
+2018-08-19 23:49:48.146  INFO ramilmmk - W.Application                            : No active profile set, falling back to default profiles: default
+2018-08-19 23:49:49.297  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd82cf5: startup date [Sun Aug 19 23:49:49 MSK 2018]; root of context hierarchy
+2018-08-19 23:49:55.449  INFO ramilmmk - trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac306c5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:49:56.160  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @23014ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-19 23:49:56.545  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8083
+2018-08-19 23:49:56.548  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-08-19 23:49:56.985  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-08-19 23:49:56.985  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-08-19 23:49:57.015  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-08-19 23:49:57.050  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-08-19 23:49:57.051  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 7890 ms
+2018-08-19 23:49:57.470  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-08-19 23:49:57.475  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-19 23:49:57.476  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-19 23:49:57.476  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-19 23:49:57.476  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-19 23:49:57.483  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7ac9af2a{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.2027813509901643440.8083/],AVAILABLE}
+2018-08-19 23:49:57.485  INFO ramilmmk - o.e.j.s.Server                           : Started @24341ms
+2018-08-19 23:49:58.106  INFO ramilmmk - c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-08-19 23:49:58.625  INFO ramilmmk - c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-08-19 23:49:58.917  INFO ramilmmk - j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-19 23:49:58.969  INFO ramilmmk - o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-19 23:49:59.698  INFO ramilmmk - o.h.Version                              : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-19 23:49:59.725  INFO ramilmmk - o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-08-19 23:50:00.043  INFO ramilmmk - o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-19 23:50:00.509  INFO ramilmmk - o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2018-08-19 23:50:00.880  INFO ramilmmk - o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-08-19 23:50:00.884  INFO ramilmmk - o.h.t.BasicTypeRegistry                  : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@66b59b7d
+2018-08-19 23:50:02.473  INFO ramilmmk - j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-19 23:50:04.421  INFO ramilmmk - W.S.PostService                          : MorningImageCreator properties set up
+2018-08-19 23:50:04.422  INFO ramilmmk - W.S.PostService                          : START SETTING UP!!!
+2018-08-19 23:50:04.423  INFO ramilmmk - W.S.PostService                          : MorningPostService properties set up
+2018-08-19 23:50:04.884  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:50:05.703  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd82cf5: startup date [Sun Aug 19 23:49:49 MSK 2018]; root of context hierarchy
+2018-08-19 23:50:05.808  WARN ramilmmk - aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-19 23:50:05.943  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/check],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-08-19 23:50:05.945  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/morning],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkMorning()
+2018-08-19 23:50:05.946  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-08-19 23:50:05.962  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-19 23:50:05.982  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-19 23:50:06.118  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:50:06.118  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:50:07.076  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-19 23:50:07.078  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-19 23:50:07.087  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-19 23:50:07.101  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-19 23:50:07.126  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-19 23:50:07.127  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-19 23:50:07.147  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-08-19 23:50:07.191  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@7841bd30{HTTP/1.1,[http/1.1]}{0.0.0.0:8083}
+2018-08-19 23:50:07.194  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8083 (http/1.1) with context path '/'
+2018-08-19 23:50:07.198  INFO ramilmmk - W.Application                            : Started Application in 25.529 seconds (JVM running for 34.053)
+2018-08-19 23:50:08.151  INFO ramilmmk - W.S.PostService                          : Start parsing gov.cap
+2018-08-19 23:50:11.708  INFO ramilmmk - o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-19 23:50:11.954  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:50:14.161  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:50:16.201  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:50:16.201  INFO ramilmmk - W.S.PostService                          : Start parsing kanashen.ru
+2018-08-19 23:50:20.979  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:50:31.222  INFO ramilmmk - W.S.PostService                          : Start parsing gov.cap
+2018-08-19 23:50:33.482  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:50:34.658  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:50:35.817  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:50:35.818  INFO ramilmmk - W.S.PostService                          : Start parsing kanashen.ru
+2018-08-19 23:50:38.890  INFO ramilmmk - W.S.PostService                          : Start building morning image
+2018-08-19 23:50:39.371  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:50:41.870  WARN ramilmmk - o.e.j.s.HttpChannel                      : /morning
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1655)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:215)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:132)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at java.io.File.<init>(File.java:277)
+	at CryptoMonitor.Utils.MorningImageCreator.buildImage(MorningImageCreator.java:123)
+	at CryptoMonitor.Utils.MorningImageCreator.create(MorningImageCreator.java:79)
+	at CryptoMonitor.Service.MorningPostService.morningTask(MorningPostService.java:75)
+	at CryptoMonitor.Controller.MainController.checkMorning(MainController.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	... 48 more
+2018-08-19 23:51:25.518  INFO ramilmmk - W.Application                            : Starting Application on ramilmmk with PID 3388 (C:\Java\CryptoMonitor\CryptoMonitor\target\classes started by ramil in C:\Java\CryptoMonitor\CryptoMonitor)
+2018-08-19 23:51:25.579  INFO ramilmmk - W.Application                            : No active profile set, falling back to default profiles: default
+2018-08-19 23:51:25.691  INFO ramilmmk - ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Sun Aug 19 23:51:25 MSK 2018]; root of context hierarchy
+2018-08-19 23:51:28.515  INFO ramilmmk - trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54296c56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:51:28.760  INFO ramilmmk - o.e.j.u.log                              : Logging initialized @6392ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-19 23:51:28.900  INFO ramilmmk - o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8083
+2018-08-19 23:51:28.902  INFO ramilmmk - o.e.j.s.Server                           : jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_112-b15
+2018-08-19 23:51:29.024  INFO ramilmmk - o.e.j.s.session                          : DefaultSessionIdManager workerName=node0
+2018-08-19 23:51:29.024  INFO ramilmmk - o.e.j.s.session                          : No SessionScavenger set, using defaults
+2018-08-19 23:51:29.026  INFO ramilmmk - o.e.j.s.session                          : node0 Scavenging every 600000ms
+2018-08-19 23:51:29.033  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring embedded WebApplicationContext
+2018-08-19 23:51:29.033  INFO ramilmmk - o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3348 ms
+2018-08-19 23:51:29.167  INFO ramilmmk - o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2018-08-19 23:51:29.170  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-19 23:51:29.170  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-19 23:51:29.170  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-19 23:51:29.170  INFO ramilmmk - o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-19 23:51:29.175  INFO ramilmmk - o.e.j.s.h.ContextHandler                 : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7573e12f{application,/,[file:///C:/Users/ramil/AppData/Local/Temp/jetty-docbase.404935885417116844.8083/],AVAILABLE}
+2018-08-19 23:51:29.176  INFO ramilmmk - o.e.j.s.Server                           : Started @6809ms
+2018-08-19 23:51:29.376  INFO ramilmmk - c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-08-19 23:51:29.520  INFO ramilmmk - c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-08-19 23:51:29.590  INFO ramilmmk - j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-19 23:51:29.606  INFO ramilmmk - o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-19 23:51:29.800  INFO ramilmmk - o.h.Version                              : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-19 23:51:29.805  INFO ramilmmk - o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-08-19 23:51:29.880  INFO ramilmmk - o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-19 23:51:30.087  INFO ramilmmk - o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2018-08-19 23:51:30.277  INFO ramilmmk - o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-08-19 23:51:30.279  INFO ramilmmk - o.h.t.BasicTypeRegistry                  : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@445bb139
+2018-08-19 23:51:30.816  INFO ramilmmk - j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-19 23:51:31.312  INFO ramilmmk - W.S.PostService                          : MorningImageCreator properties set up
+2018-08-19 23:51:31.313  INFO ramilmmk - W.S.PostService                          : START SETTING UP!!!
+2018-08-19 23:51:31.313  INFO ramilmmk - W.S.PostService                          : MorningPostService properties set up
+2018-08-19 23:51:31.425  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:51:31.742  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@394df057: startup date [Sun Aug 19 23:51:25 MSK 2018]; root of context hierarchy
+2018-08-19 23:51:31.780  WARN ramilmmk - aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-19 23:51:31.823  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.render()
+2018-08-19 23:51:31.824  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/check],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkApp()
+2018-08-19 23:51:31.824  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/morning],methods=[GET]}" onto public java.lang.String CryptoMonitor.Controller.MainController.checkMorning()
+2018-08-19 23:51:31.832  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-19 23:51:31.833  INFO ramilmmk - s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-19 23:51:31.873  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:51:31.873  INFO ramilmmk - o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:51:32.298  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-19 23:51:32.300  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-19 23:51:32.307  INFO ramilmmk - o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-19 23:51:32.322  INFO ramilmmk - s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-19 23:51:32.337  INFO ramilmmk - o.e.j.s.h.C.application                  : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-19 23:51:32.337  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-19 23:51:32.361  INFO ramilmmk - o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-08-19 23:51:32.389  INFO ramilmmk - o.e.j.s.AbstractConnector                : Started ServerConnector@58a7dc4{HTTP/1.1,[http/1.1]}{0.0.0.0:8083}
+2018-08-19 23:51:32.393  INFO ramilmmk - o.s.b.w.e.j.JettyWebServer               : Jetty started on port(s) 8083 (http/1.1) with context path '/'
+2018-08-19 23:51:32.398  INFO ramilmmk - W.Application                            : Started Application in 7.71 seconds (JVM running for 10.03)
+2018-08-19 23:51:33.560  INFO ramilmmk - W.S.PostService                          : Start parsing gov.cap
+2018-08-19 23:51:35.671  INFO ramilmmk - W.S.PostService                          : Start building morning image
+2018-08-19 23:51:35.937  INFO ramilmmk - o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-19 23:51:36.265  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:51:37.873  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:51:38.371  INFO ramilmmk - W.S.PostService                          : Morning image GENERATED SUCCESSFULLY
+2018-08-19 23:51:38.371  INFO ramilmmk - W.S.PostService                          : Sending morning image to suggested news...
+2018-08-19 23:51:38.377  INFO ramilmmk - W.S.PostService                          : Uploading photo...
+2018-08-19 23:51:39.007  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:51:39.008  INFO ramilmmk - W.S.PostService                          : Start parsing kanashen.ru
+2018-08-19 23:51:44.148  INFO ramilmmk - W.S.PostService                          : Checking post...
+2018-08-19 23:51:59.895  INFO ramilmmk - W.S.PostService                          : #RESPONSE: HttpResponseProxy{HTTP/1.1 200 OK [Server: Internet Information Services, Date: Sun, 19 Aug 2018 20:52:01 GMT, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Powered-By: PHP/3.16354, Cache-control: no-store] org.apache.http.client.entity.DecompressingEntity@638d93f0}
+2018-08-19 23:52:00.156  INFO ramilmmk - W.S.PostService                          : #RESPONSE: HttpResponseProxy{HTTP/1.1 200 OK [Server: Internet Information Services, Date: Sun, 19 Aug 2018 20:52:01 GMT, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Powered-By: PHP/3.16354, Cache-control: no-store] org.apache.http.client.entity.DecompressingEntity@53f5d406}
+2018-08-19 23:52:00.156  INFO ramilmmk - W.S.PostService                          : MORNING POST SUGGESTING TASK DONE!
+2018-08-19 23:52:20.869  INFO ramilmmk - W.S.PostService                          : Start building morning image
+2018-08-19 23:52:22.334  INFO ramilmmk - W.S.PostService                          : Morning image GENERATED SUCCESSFULLY
+2018-08-19 23:52:22.334  INFO ramilmmk - W.S.PostService                          : Sending morning image to suggested news...
+2018-08-19 23:52:22.340  INFO ramilmmk - W.S.PostService                          : Uploading photo...
+2018-08-19 23:52:48.552  INFO ramilmmk - W.S.PostService                          : #RESPONSE: HttpResponseProxy{HTTP/1.1 200 OK [Server: Internet Information Services, Date: Sun, 19 Aug 2018 20:52:49 GMT, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Powered-By: PHP/3.16354, Cache-control: no-store] org.apache.http.client.entity.DecompressingEntity@1641cb8b}
+2018-08-19 23:52:48.777  INFO ramilmmk - W.S.PostService                          : #RESPONSE: HttpResponseProxy{HTTP/1.1 200 OK [Server: Internet Information Services, Date: Sun, 19 Aug 2018 20:52:50 GMT, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Powered-By: PHP/3.16354, Cache-control: no-store] org.apache.http.client.entity.DecompressingEntity@6dde7bf1}
+2018-08-19 23:52:48.778  INFO ramilmmk - W.S.PostService                          : MORNING POST SUGGESTING TASK DONE!
+2018-08-19 23:53:15.646  INFO ramilmmk - W.S.PostService                          : Start building morning image
+2018-08-19 23:53:18.513  INFO ramilmmk - W.S.PostService                          : Morning image GENERATED SUCCESSFULLY
+2018-08-19 23:53:18.513  INFO ramilmmk - W.S.PostService                          : Sending morning image to suggested news...
+2018-08-19 23:53:18.518  INFO ramilmmk - W.S.PostService                          : Uploading photo...
+2018-08-19 23:53:29.949  INFO ramilmmk - W.S.PostService                          : #RESPONSE: HttpResponseProxy{HTTP/1.1 200 OK [Server: Internet Information Services, Date: Sun, 19 Aug 2018 20:53:31 GMT, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Powered-By: PHP/3.16354, Cache-control: no-store] org.apache.http.client.entity.DecompressingEntity@6647c486}
+2018-08-19 23:53:30.187  INFO ramilmmk - W.S.PostService                          : #RESPONSE: HttpResponseProxy{HTTP/1.1 200 OK [Server: Internet Information Services, Date: Sun, 19 Aug 2018 20:53:31 GMT, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Powered-By: PHP/3.16354, Cache-control: no-store] org.apache.http.client.entity.DecompressingEntity@3917a234}
+2018-08-19 23:53:30.187  INFO ramilmmk - W.S.PostService                          : MORNING POST SUGGESTING TASK DONE!
+2018-08-19 23:53:49.317  INFO ramilmmk - W.S.PostService                          : Start building morning image
+2018-08-19 23:53:50.295  INFO ramilmmk - W.S.PostService                          : Morning image GENERATED SUCCESSFULLY
+2018-08-19 23:53:50.296  INFO ramilmmk - W.S.PostService                          : Sending morning image to suggested news...
+2018-08-19 23:53:50.300  INFO ramilmmk - W.S.PostService                          : Uploading photo...
+2018-08-19 23:54:09.986  INFO ramilmmk - W.S.PostService                          : #RESPONSE: HttpResponseProxy{HTTP/1.1 200 OK [Server: Internet Information Services, Date: Sun, 19 Aug 2018 20:54:11 GMT, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Powered-By: PHP/3.16354, Cache-control: no-store] org.apache.http.client.entity.DecompressingEntity@2ca22ae7}
+2018-08-19 23:54:10.209  INFO ramilmmk - W.S.PostService                          : #RESPONSE: HttpResponseProxy{HTTP/1.1 200 OK [Server: Internet Information Services, Date: Sun, 19 Aug 2018 20:54:11 GMT, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Powered-By: PHP/3.16354, Cache-control: no-store] org.apache.http.client.entity.DecompressingEntity@71bbdf03}
+2018-08-19 23:54:10.209  INFO ramilmmk - W.S.PostService                          : MORNING POST SUGGESTING TASK DONE!
+2018-08-19 23:54:19.279  INFO ramilmmk - W.S.PostService                          : Start building morning image
+2018-08-19 23:54:20.281  INFO ramilmmk - W.S.PostService                          : Morning image GENERATED SUCCESSFULLY
+2018-08-19 23:54:20.281  INFO ramilmmk - W.S.PostService                          : Sending morning image to suggested news...
+2018-08-19 23:54:20.286  INFO ramilmmk - W.S.PostService                          : Uploading photo...
+2018-08-19 23:54:40.550  INFO ramilmmk - W.S.PostService                          : #RESPONSE: HttpResponseProxy{HTTP/1.1 200 OK [Server: Internet Information Services, Date: Sun, 19 Aug 2018 20:54:41 GMT, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Powered-By: PHP/3.16354, Cache-control: no-store] org.apache.http.client.entity.DecompressingEntity@432b7e00}
+2018-08-19 23:54:40.777  INFO ramilmmk - W.S.PostService                          : #RESPONSE: HttpResponseProxy{HTTP/1.1 200 OK [Server: Internet Information Services, Date: Sun, 19 Aug 2018 20:54:42 GMT, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Powered-By: PHP/3.16354, Cache-control: no-store] org.apache.http.client.entity.DecompressingEntity@2e17f92c}
+2018-08-19 23:54:40.777  INFO ramilmmk - W.S.PostService                          : MORNING POST SUGGESTING TASK DONE!
